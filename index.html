@@ -48,7 +48,7 @@
         var checked = 0;
         var lastchchecked;
        $('#checkbox1').change(function () {
-           if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked")) {
+           if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked") && $("#checkbox1").prop("checked")) {
                lastchchecked.click();
            }
 
@@ -63,7 +63,7 @@
        });
 
         $('#checkbox2').change(function () {
-            if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked")) {
+            if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked") && $("#checkbox2").prop("checked")) {
                 lastchchecked.click();
             }
 
@@ -78,7 +78,7 @@
         });
 
         $('#checkbox3').change(function () {
-            if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked")) {
+            if(lastchchecked !== null && checked === 2 && lastchchecked.prop("checked") && $("#checkbox3").prop("checked")) {
                 lastchchecked.click();
             }
 
